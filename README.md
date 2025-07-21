@@ -24,6 +24,7 @@ python decrypt_db.py
 > pip install frida
 ```
 
+<br><br>
 ## 🪝 Frida 설치
 frida를 통해 session.db의 복호화 키를 후킹하기 때문에 frida를 설치.
 ```bash
