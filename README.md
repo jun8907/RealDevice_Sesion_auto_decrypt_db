@@ -7,11 +7,11 @@
 ## 🧪 사용법
 
 ```bash
-git clone https://github.com/jun8907/RealDevice_Session_auto_decrypt_db.git
-cd RealDevice_Session_auto_decrypt_db
-pip install -r requirements.txt
-python pull.py
-python decrypt_db.py
+> git clone https://github.com/jun8907/RealDevice_Session_auto_decrypt_db.git
+> cd RealDevice_Session_auto_decrypt_db
+> pip install -r requirements.txt
+> python pull.py
+> python decrypt_db.py
 ```
 
 <br><br>
