@@ -94,7 +94,8 @@ Frida로 hook.js를 앱에 로드하고, 출력된 키를 정규 표현식으로
 ```python
 [실행 결과]
 [+] 키를 찾았습니다: 76b1f11c582a8372c994844b19bfe8c6cae019b7ba6d8fe7db7422696ca981b0
-총 1개 키 수집 완료: ['76b1f11c582a8372c994844b19bfe8c6cae019b7ba6d8fe7db7422696ca981b0']
+[+] 키를 찾았습니다: 62b9b15b5dcdd9dc4db74cb183cb488b32e68b5af8bf16c4addab22426f0c3ce
+총 2개 키 수집 완료: ['76b1f11c582a8372c994844b19bfe8c6cae019b7ba6d8fe7db7422696ca981b0', '62b9b15b5dcdd9dc4db74cb183cb488b32e68b5af8bf16c4addab22426f0c3ce']
 ```
 
 <br><br>
@@ -105,6 +106,7 @@ javax.crypto.Cipher 클래스를 후킹하여 session.db 복호화에 사용되�
 ```python
 [실행 결과]
 [+] Cipher.doFinal(inputLen=48) returned outputLen=32 hex=76b1f11c582a8372c994844b19bfe8c6cae019b7ba6d8fe7db7422696ca981b0
+[+] Cipher.doFinal(inputLen=48) returned outputLen=32 hex=62b9b15b5dcdd9dc4db74cb183cb488b32e68b5af8bf16c4addab22426f0c3ce
 ```
 
 <br><br>
