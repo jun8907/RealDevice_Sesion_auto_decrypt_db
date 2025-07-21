@@ -26,7 +26,7 @@ python decrypt_db.py
 
 <br><br>
 ## 🪝 Frida 설치
-frida를 통해 session.db의 복호화 키를 후킹하기 때문에 frida를 설치.
+frida를 통해 signal.db의 복호화 키를 후킹하기 때문에 frida를 설치.
 ```bash
 > pip install frida-tools
 > frida --version
@@ -47,21 +47,21 @@ arm64-v8a
 
 **압축해제**
 ```bash
-> xz -d frida-server-16.1.8-android-arm64.xz
-> chmod +x frida-server-16.1.8-android-arm64
+> xz -d frida-server-17.x.x-android-arm64.xz
+> chmod +x frida-server-17.x.x-android-arm64
 ```
 
 **ADB로 기기에 전송**
 ```bash
-> adb push frida-server-16.1.8-android-arm64 /data/local/tmp/
+> adb push frida-server-17.x.x-android-arm64 /data/local/tmp/
 ```
 
 **루팅 쉘 진입 후 실행**
 ```bash
 > adb shell
 > su
-> chmod 755 /data/local/tmp/frida-server-16.1.8-android-arm64
-> /data/local/tmp/frida-server-16.1.8-android-arm64 &
+> chmod 755 /data/local/tmp/frida-server-17.x.x-android-arm64
+> /data/local/tmp/frida-server-17.x.x-android-arm64 &
 ```
 
 <br><br>
