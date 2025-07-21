@@ -21,7 +21,7 @@ python decrypt_db.py
 ```bash
 > pip install pycryptodome
 > pip install sqlcipher3-wheels
-> pip install frida
+> pip install frida-tools
 ```
 
 <br><br>
